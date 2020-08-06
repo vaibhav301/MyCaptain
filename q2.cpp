@@ -7,7 +7,7 @@ float m;
 cout<<"Enter two numbers"<<endl;
 cin>>a>>b;
 m=a*b;
-cout<<"ans is:"<<m;
+cout<<"product =:"<<m;
 return 0;
 }
 
