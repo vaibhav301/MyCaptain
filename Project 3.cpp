@@ -1,20 +1,28 @@
-#include<iostream>
-#include<stdio.h>
+#include <iostream>
+
 using namespace std;
 int main()
 {
-int arr[4];
-cout<<"Enter Elements:"<<endl;
-for(int i=0;i<=4;i++)
-{
-cin>>arr[i];
-}
-cout<<"you entered:";
-for(int i=0;i<=4;i++)
-{
-cout<<arr[i]<<endl;
-}
-return 0;
+
+    int a[4];
+    int *p;
+    
+    cout<<" enter";
+    for(int i=0;i<=4;i++)
+    {
+        
+        cin>>a[i];
+        p=a;
+    }
+    cout<<"u entered";
+    for(int i=0;i<=4;i++)
+       {
+           cout<<*p<<endl;
+           p++;
+          
+       }
+       
+    return 0;
 }
 
 
